@@ -13,65 +13,6 @@ This project is an epilepsy prediction system based on EEG (electroencephalogram
 * scipy             1.16.1
 * tqdm              4.67.1
 
-
-
-## Main Directory
-
-```
-├── .git                    
-├── .idea            
-├── data                     
-├── net                  
-├── preprocessing                    # Pre-trained Data Processing
-|  |──_pycache_
-│  ├── edf_extraction.py         
-│  ├── input.py           
-│  ├── input_process_dataset.py              
-│  ├── label_wrapper.py       
-│  ├── make_dataset.py                  
-│  ├── make_dataset_for_pred_v2.py            
-│  ├── make_dataset_for_pred_v2_spectralgram.py
-│  ├── make_dataset_for_pred_v2_zheer.py                  
-│  ├── make_tfrecords.py         
-│  ├── split_samples.py
-│  ├── split_samples_for_pred.py                  
-│  ├── split_samples_for_pred_v2.py         
-│  ├── split_samples_for_pred_v2_zheer.py                                
-├── train_pred                     
-│  |──_pycache_            
-│  ├── checkpoints         
-│  ├── loss_compute.py       
-│  ├── loss_compute_pred.py            
-│  ├── loss_compute_torch.py           
-│  ├── main_pred.py            
-│  ├── main_pred_loocv.py                
-│  ├── main_pred_loocv_v2.py      
-│  ├── main_pred_test_loocv_v2.py            
-│  ├── train_channel_frequency.py         
-│  ├── train_pytorch.py               
-│  ├── train_Transformer.py       
-├── utils  
-│  |──_pycache_            
-│  ├── auc_utils.py         
-│  ├── gcn_lstm_utils.py      
-│  ├── gcn_utils.py           
-│  ├── gcn_utils_pred.py           
-│  ├── gcn_utils_torch.py           
-│  ├── innovation_utils.py               
-│  ├── length_GCN.py     
-│  ├── length_HGCN.py           
-│  ├── lstm_utils.py       
-│  ├── manual_set_params.py             
-│  ├── others.py            
-│  ├── resnet_utils.py    
-│  ├── set_transformer_utils.py           
-│  ├── sharing_params.py                 
-├── vene                   
-├── mv-file.py
-|──read_edf.py
-|──temp.py   
-|──test.py
-```
 ## How to Use
 1. Open the project's GitHub repository page (https://github.com/seizure-anonymous/Seizure-prediction.git).
 2. Click the Code button in the upper right corner of the page and select a download method:
